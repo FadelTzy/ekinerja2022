@@ -1170,10 +1170,10 @@ bootstrap-select@^1.13.12:
   resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.16.tgz#a2f8b8d93fc285030af504a0d1d20677706f3826"
   integrity sha512-59hUIrW/ldENJDNmliRH3Mzbbrn+XHH5bK0yAy/743Thf8nXA9afNjgr+j1j6tg7NYexEqtE2N8NodHfwMQ0+Q==
 
-bootstrap-table@^1.15.5:
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/bootstrap-table/-/bootstrap-table-1.16.0.tgz#d05bd262e7f70a76ee872c658918983beb3befce"
-  integrity sha512-bLbVetbyiXYmhU1LSsaiOHH4uvmlyBa/fNUo3y0owCfQSyQms/sfXOBvbcJWlDmjGtTY7kPW5z7KQvQJDPzN5w==
+bootstrap-table@^1.21.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-table/-/bootstrap-table-1.21.0.tgz#f29bbd22f89506e3be7f78ecea247b9408604154"
+  integrity sha512-lQlqfxg7PujDpfVPn2FFjvYI2xARZ1lnTjwLDvi9kzCvznNR+lw3OJvBcTOiGT/TsckGSpZCnGZVZH8mRNT1xw==
 
 bootstrap-touchspin@^4.2.5:
   version "4.3.0"
