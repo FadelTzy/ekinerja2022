@@ -4,7 +4,9 @@
   "description": "Fully responsive web application ui kit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "coderthemes",
   "repository": {
@@ -40,7 +42,7 @@
     "@fullcalendar/list": "^4.4.0",
     "@fullcalendar/timegrid": "^4.4.0",
     "admin-resources": "git+https://github.com/coderthemes/admin-resources.git#master",
-    "apexcharts": "3.16.1",
+    "apexcharts": "3.27.0",
     "autonumeric": "^1.9.39",
     "bootstrap": "^4.5.2",
     "bootstrap-colorpicker": "^3.2.0",
@@ -48,17 +50,17 @@
     "bootstrap-daterangepicker": "^3.1.0",
     "bootstrap-maxlength": "^1.6.0",
     "bootstrap-select": "^1.13.12",
-    "bootstrap-table": "^1.15.5",
+    "bootstrap-table": "^1.20.2",
     "bootstrap-touchspin": "^4.2.5",
     "c3": "^0.6.7",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "chartist": "^0.11.4",
     "chartist-plugin-tooltips": "0.0.17",
     "clockpicker": "0.0.7",
     "custombox": "^4.0.3",
-    "d3": "^5.15.0",
-    "datatables.net": "^1.10.21",
-    "datatables.net-bs4": "^1.10.20",
+    "d3": "^7.0.0",
+    "datatables.net": "^1.11.3",
+    "datatables.net-bs4": "^1.11.0",
     "datatables.net-buttons": "^1.6.1",
     "datatables.net-buttons-bs4": "^1.6.1",
     "datatables.net-keytable": "^2.5.1",
@@ -91,9 +93,9 @@
     "jquery.scrollto": "^2.1.2",
     "jstree": "^3.3.7",
     "magnific-popup": "^1.1.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mohithg-switchery": "^0.8.4",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "morris.js06": "^0.6.4",
     "multiselect": "^0.9.12",
     "nestable2": "^1.6.0",
@@ -115,6 +117,8 @@
     "toastr": "^2.1.4",
     "twitter-bootstrap-wizard": "^1.2.0",
     "waypoints": "^4.0.1",
-    "x-editable": "^1.5.1"
-  }
+    "x-editable": "^1.5.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
